@@ -227,6 +227,7 @@ export default function App() {
       {/* FIXED NAVBAR (HEIGHT 48PX) */}
       <nav className="fixed top-0 inset-x-0 h-12 bg-surface border-b-2 border-[#0B1420] z-40 select-none ps-12 pe-6 md:ps-20 md:pe-12 flex items-center justify-between flex-row">
         <a href="#" className="flex items-center gap-2 group interactive-hover">
+          <img src="/Sila-01.svg" alt="Sila" className="w-5 h-5 shrink-0" />
           <span className="font-mono text-xs font-bold text-[#0B1420] tracking-[0.2em] uppercase">
             {t.navTitle}
           </span>
@@ -407,8 +408,8 @@ export default function App() {
             {/* Slide-in massive word header */}
             <div className="overflow-visible w-full select-none relative h-[105px] md:h-[180px]">
               <motion.h2
-                initial={{ x: "100%" }}
-                whileInView={{ x: "0%" }}
+                initial={{ x: 80, opacity: 0 }}
+                whileInView={{ x: 0, opacity: 1 }}
                 viewport={{ once: true, margin: "-100px" }}
                 transition={{ duration: 1.0, ease: [0.16, 1, 0.3, 1] }}
                 className="font-display font-extrabold uppercase text-[#0B1420]/95 leading-none absolute left-8 md:left-16 pr-12 whitespace-nowrap"
@@ -476,8 +477,8 @@ export default function App() {
           <div className="col-span-12">
             <div className="overflow-visible w-full select-none relative h-[105px] md:h-[180px]">
               <motion.h2
-                initial={{ x: "100%" }}
-                whileInView={{ x: "0%" }}
+                initial={{ x: 80, opacity: 0 }}
+                whileInView={{ x: 0, opacity: 1 }}
                 viewport={{ once: true, margin: "-100px" }}
                 transition={{ duration: 1.0, ease: [0.16, 1, 0.3, 1] }}
                 className="font-display font-extrabold uppercase text-[#0B1420]/95 leading-none absolute left-8 md:left-16 pr-12 whitespace-nowrap"
@@ -602,8 +603,8 @@ export default function App() {
           <div className="col-span-12">
             <div className="overflow-visible w-full select-none relative h-[105px] md:h-[180px]">
               <motion.h2
-                initial={{ x: "100%" }}
-                whileInView={{ x: "0%" }}
+                initial={{ x: 80, opacity: 0 }}
+                whileInView={{ x: 0, opacity: 1 }}
                 viewport={{ once: true, margin: "-100px" }}
                 transition={{ duration: 1.0, ease: [0.16, 1, 0.3, 1] }}
                 className="font-display font-extrabold uppercase text-[#0B1420]/95 leading-none absolute left-8 md:left-16 pr-12 whitespace-nowrap"
@@ -666,8 +667,8 @@ export default function App() {
           <div className="col-span-12">
             <div className="overflow-visible w-full select-none relative h-[105px] md:h-[180px]">
               <motion.h2
-                initial={{ x: "100%" }}
-                whileInView={{ x: "0%" }}
+                initial={{ x: 80, opacity: 0 }}
+                whileInView={{ x: 0, opacity: 1 }}
                 viewport={{ once: true, margin: "-100px" }}
                 transition={{ duration: 1.0, ease: [0.16, 1, 0.3, 1] }}
                 className="font-display font-extrabold uppercase text-[#0B1420]/95 leading-none absolute left-8 md:left-16 pr-12 whitespace-nowrap"
@@ -735,8 +736,8 @@ export default function App() {
             {/* Massive bleeding word headers */}
             <div className="overflow-visible w-full select-none relative h-[90px] md:h-[180px]">
               <motion.h2
-                initial={{ x: "100%" }}
-                whileInView={{ x: "0%" }}
+                initial={{ x: 80, opacity: 0 }}
+                whileInView={{ x: 0, opacity: 1 }}
                 viewport={{ once: true, margin: "-100px" }}
                 transition={{ duration: 1.0, ease: [0.16, 1, 0.3, 1] }}
                 className="font-display font-extrabold uppercase text-[#0B1420]/95 leading-none absolute left-8 md:left-16 pr-12 whitespace-nowrap"
@@ -913,8 +914,8 @@ export default function App() {
           <div className="col-span-12">
             <div className="overflow-visible w-full select-none relative h-[105px] md:h-[180px]">
               <motion.h2
-                initial={{ x: "100%" }}
-                whileInView={{ x: "0%" }}
+                initial={{ x: 80, opacity: 0 }}
+                whileInView={{ x: 0, opacity: 1 }}
                 viewport={{ once: true, margin: "-100px" }}
                 transition={{ duration: 1.0, ease: [0.16, 1, 0.3, 1] }}
                 className="font-display font-extrabold uppercase text-[#0B1420]/95 leading-none absolute left-8 md:left-16 pr-12 whitespace-nowrap"

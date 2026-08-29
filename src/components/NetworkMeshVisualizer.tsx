@@ -158,13 +158,18 @@ export const SecurityGatekeeperDemo: React.FC = () => {
 
       setRedactedText(result);
       setScannedMetrics({
-        entitiesFound: count > 0 ? count : 2,
+        entitiesFound: count,
         ruleSet: "Oman PDPL (Royal Decree 6/2022) Default",
-        actionResult: "Redacted before egress payload creation"
+        actionResult: count > 0 ? "Redacted before egress payload creation" : "No sensitive entities detected"
       });
       setIsScanning(false);
 
-      showModernToast("✓ Security screening completed. Personal data redacted.", "success");
+      showModernToast(
+        count > 0
+          ? "✓ Security screening completed. Personal data redacted."
+          : "✓ Security screening completed. No personal data found.",
+        "success"
+      );
     }, 1200);
   };
 
@@ -245,7 +250,9 @@ export const SecurityGatekeeperDemo: React.FC = () => {
                   <div className="grid grid-cols-2 gap-2 mt-3 pt-2 border-t border-[#0B1420]/8 font-mono text-[8px] text-slate-500 uppercase">
                     <div>
                       <span>Entities Scanned: </span>
-                      <span className="text-[#0085CA] font-bold">{scannedMetrics.entitiesFound} Redacted</span>
+                      <span className="text-[#0085CA] font-bold">
+                        {scannedMetrics.entitiesFound > 0 ? `${scannedMetrics.entitiesFound} Redacted` : "None Found"}
+                      </span>
                     </div>
                     <div>
                       <span>Gatekeeper Rule: </span>
