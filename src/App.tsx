@@ -1103,13 +1103,13 @@ export default function App() {
           {/* 3 Columns Footer text row */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 font-mono text-[9px] text-[#0B1420]/40 uppercase tracking-widest text-center md:text-left">
             <div>
-              // SILA, AN OMANTEL INITIATIVE
+              // SILA, A GENZ INITIATIVE
             </div>
             <div className="md:text-center text-[#0085CA]/60 font-bold">
               ALL DATA PROCESSED INSIDE OMAN
             </div>
             <div className="md:text-right">
-              © 2026 OMANTEL. ALL RIGHTS RESERVED.
+              INDEPENDENT PROJECT. NOT AFFILIATED WITH OR ENDORSED BY ANY OPERATOR.
             </div>
           </div>
 
@@ -1238,7 +1238,7 @@ export default function App() {
                           onChange={(e) => setRegForm({ ...regForm, email: e.target.value })}
                           onFocus={() => setActiveRegField("email")}
                           onBlur={() => setActiveRegField(null)}
-                          placeholder="e.g. salim@omantel.om"
+                          placeholder="e.g. salim@example.om"
                           className="w-full bg-surface-mute border border-[#0B1420]/15 px-3 py-2.5 text-xs text-[#0B1420] placeholder-[#0B1420]/30 focus:outline-none focus:border-[#0085CA] font-mono transition-colors"
                         />
                       </div>
@@ -1268,7 +1268,7 @@ export default function App() {
                           onChange={(e) => setRegForm({ ...regForm, org: e.target.value })}
                           onFocus={() => setActiveRegField("org")}
                           onBlur={() => setActiveRegField(null)}
-                          placeholder="e.g. Omantel"
+                          placeholder="e.g. Ministry of Transport"
                           className="w-full bg-surface-mute border border-[#0B1420]/15 px-3 py-2.5 text-xs text-[#0B1420] placeholder-[#0B1420]/30 focus:outline-none focus:border-[#0085CA] font-mono transition-colors"
                         />
                       </div>
@@ -1349,7 +1349,7 @@ export default function App() {
                     </div>
                     <div className="flex justify-between">
                       <span className="text-[#0B1420]/40">DATACENTER:</span>
-                      <span className="text-[#0B1420] font-semibold">OMANTEL ON-PREMISES</span>
+                      <span className="text-[#0B1420] font-semibold">SOVEREIGN ON-PREMISES</span>
                     </div>
                   </div>
 

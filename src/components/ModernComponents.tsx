@@ -286,7 +286,7 @@ export const ModernDrawer: React.FC<ModernDrawerProps> = ({
                 <div className="flex items-center justify-between pb-4 border-b border-line">
                   <div>
                     <span className="block font-sans text-[10px] font-bold tracking-widest text-accent uppercase">
-                      Omantel Initiative
+                      Gen Z Initiative
                     </span>
                     <h2 className="font-display text-xl text-ink font-bold tracking-tight mt-0.5">
                       {title}

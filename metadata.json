@@ -1,5 +1,5 @@
 {
-  "name": "Sila - Omantel Agent Shareplace",
+  "name": "Sila - Agent Shareplace",
   "description": "Sila is a sovereign enterprise AI agent marketplace where Omani employees can discover, try, and deploy trusted AI agents in one governed platform, fully PDPL-compliant.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]

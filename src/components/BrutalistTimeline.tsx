@@ -217,7 +217,7 @@ export const BrutalistTimeline: React.FC = () => {
               </div>
               <div>
                 <span className="text-[8px] text-[#0B1420]/45 uppercase tracking-widest block font-bold">HOSTING_HOST:</span>
-                <span className="text-[10px] text-[#0B1420]/80 font-mono leading-none block mt-0.5">OMANTEL ON-PREMISES</span>
+                <span className="text-[10px] text-[#0B1420]/80 font-mono leading-none block mt-0.5">SOVEREIGN ON-PREMISES</span>
               </div>
             </div>
           </motion.div>

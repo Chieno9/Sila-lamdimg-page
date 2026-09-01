@@ -35,7 +35,7 @@ export const translations: TranslationSet = {
   heroOnline: "// SILA NETWORK ONLINE // ON-PREM_OM_001",
   heroBleedHeader: "SILA",
   heroSub: "Find, adjust, and start using AI agents in one internal marketplace. Describe what you need to SILA, and get a working agent back.",
-  heroDesc: "All data and all model inference stay on infrastructure Omantel controls; nothing is sent to an external AI provider. Every agent is checked against Oman's Personal Data Protection Law before it publishes to the Bazaar.",
+  heroDesc: "All data and all model inference stay on sovereign on-premises infrastructure inside Oman; nothing is sent to an external AI provider. Every agent is checked against Oman's Personal Data Protection Law before it publishes to the Bazaar.",
   scrollEnter: "SCROLL TO ENTER THE NETWORK",
   allSecuredByOtech: "SILA WORKSPACE // AI RUNS ON-PREMISES",
 
